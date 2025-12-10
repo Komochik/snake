@@ -1,0 +1,55 @@
+2025-12-10 18:06:59.325 [JavaFX Application Thread] INFO  SnakeGame - ==================================================
+2025-12-10 18:06:59.340 [JavaFX Application Thread] INFO  SnakeGame - ЗАПУСК ИГРЫ 'ЗМЕЙКА'
+2025-12-10 18:06:59.340 [JavaFX Application Thread] INFO  SnakeGame - ==================================================
+2025-12-10 18:06:59.396 [JavaFX Application Thread] INFO  GamePanel - Инициализация GamePanel 800x600
+2025-12-10 18:06:59.399 [JavaFX Application Thread] INFO  Snake - Змейка создана в (400, 300)
+2025-12-10 18:06:59.400 [JavaFX Application Thread] INFO  Apple - Создание нового яблока на поле 800x600
+2025-12-10 18:06:59.400 [JavaFX Application Thread] DEBUG Apple - Генерация новой позиции для яблока...
+2025-12-10 18:06:59.405 [JavaFX Application Thread] DEBUG Apple - Всего возможных позиций: 1200
+2025-12-10 18:06:59.415 [JavaFX Application Thread] DEBUG Apple - Свободных позиций: 1200
+2025-12-10 18:06:59.418 [JavaFX Application Thread] INFO  Apple - Яблоко сгенерировано в позиции: (680, 320)
+2025-12-10 18:06:59.735 [JavaFX Application Thread] INFO  SnakeGame - Окно игры создано
+2025-12-10 18:06:59.737 [JavaFX Application Thread] INFO  SnakeGame - Игровой цикл запущен
+2025-12-10 18:07:02.819 [JavaFX Application Thread] INFO  Snake - Столкновение с границей в (800, 300). Отражение...
+2025-12-10 18:07:02.819 [JavaFX Application Thread] INFO  Snake - Отражаем змейку от границы...
+2025-12-10 18:07:02.819 [JavaFX Application Thread] INFO  Snake - Активирована неуязвимость на 3 кадра
+2025-12-10 18:07:02.923 [JavaFX Application Thread] INFO  Snake - Столкновение с границей в (820, 300). Отражение...
+2025-12-10 18:07:02.923 [JavaFX Application Thread] INFO  Snake - Отражаем змейку от границы...
+2025-12-10 18:07:02.924 [JavaFX Application Thread] DEBUG Snake - Направление X изменено на -1
+2025-12-10 18:07:02.924 [JavaFX Application Thread] INFO  Snake - Активирована неуязвимость на 3 кадра
+2025-12-10 18:07:02.939 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=0, Y=1
+2025-12-10 18:07:03.132 [JavaFX Application Thread] DEBUG Snake - Неуязвимость закончилась
+2025-12-10 18:07:03.376 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=-1, Y=0
+2025-12-10 18:07:03.516 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=0, Y=-1
+2025-12-10 18:07:03.902 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=-1, Y=0
+2025-12-10 18:07:04.972 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=0, Y=1
+2025-12-10 18:07:05.121 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=1, Y=0
+2025-12-10 18:07:05.557 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=0, Y=1
+2025-12-10 18:07:05.880 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=1, Y=0
+2025-12-10 18:07:06.350 [JavaFX Application Thread] INFO  Apple - Яблоко съедено в позиции (680, 320)
+2025-12-10 18:07:06.351 [JavaFX Application Thread] INFO  Snake - Змейка выросла! Новая длина: 2
+2025-12-10 18:07:06.351 [JavaFX Application Thread] DEBUG Apple - Генерация новой позиции для яблока...
+2025-12-10 18:07:06.352 [JavaFX Application Thread] DEBUG Apple - Всего возможных позиций: 1200
+2025-12-10 18:07:06.356 [JavaFX Application Thread] DEBUG Apple - Свободных позиций: 1199
+2025-12-10 18:07:06.356 [JavaFX Application Thread] INFO  Apple - Яблоко сгенерировано в позиции: (360, 40)
+2025-12-10 18:07:06.775 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=0, Y=-1
+2025-12-10 18:07:07.147 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=-1, Y=0
+2025-12-10 18:07:08.139 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=0, Y=-1
+2025-12-10 18:07:08.698 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=-1, Y=0
+2025-12-10 18:07:09.196 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=0, Y=-1
+2025-12-10 18:07:09.924 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=-1, Y=0
+2025-12-10 18:07:10.495 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=0, Y=-1
+2025-12-10 18:07:10.620 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=1, Y=0
+2025-12-10 18:07:10.684 [JavaFX Application Thread] INFO  Apple - Яблоко съедено в позиции (360, 40)
+2025-12-10 18:07:10.685 [JavaFX Application Thread] INFO  Snake - Змейка выросла! Новая длина: 3
+2025-12-10 18:07:10.685 [JavaFX Application Thread] DEBUG Apple - Генерация новой позиции для яблока...
+2025-12-10 18:07:10.686 [JavaFX Application Thread] DEBUG Apple - Всего возможных позиций: 1200
+2025-12-10 18:07:10.687 [JavaFX Application Thread] DEBUG Apple - Свободных позиций: 1198
+2025-12-10 18:07:10.688 [JavaFX Application Thread] INFO  Apple - Яблоко сгенерировано в позиции: (340, 60)
+2025-12-10 18:07:11.191 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=0, Y=1
+2025-12-10 18:07:11.367 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=-1, Y=0
+2025-12-10 18:07:11.955 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=0, Y=-1
+2025-12-10 18:07:12.019 [JavaFX Application Thread] INFO  Snake - Направление изменено: X=1, Y=0
+2025-12-10 18:07:12.037 [JavaFX Application Thread] WARN  Snake - Обнаружено столкновение с собой в (340, 80)
+2025-12-10 18:07:12.037 [JavaFX Application Thread] ERROR Snake - Змейка столкнулась с собой в (340, 80)! Конец игры.
+2025-12-10 18:07:23.410 [JavaFX Application Thread] INFO  SnakeGame - Закрытие игры
