@@ -1,0 +1,52 @@
+2025-12-05 02:36:15.556 [JavaFX Application Thread] ERROR Snake - Змейка столкнулась с собой в (500, 60)! Конец игры.
+2025-12-05 02:36:15.560 [JavaFX Application Thread] ERROR GamePanel - Игра завершена из-за столкновения змейки с собой
+2025-12-05 02:39:20.970 [JavaFX Application Thread] ERROR Snake - Змейка столкнулась с собой в (420, 460)! Конец игры.
+2025-12-05 02:39:20.974 [JavaFX Application Thread] ERROR GamePanel - Игра завершена из-за столкновения змейки с собой
+2025-12-05 02:41:23.786 [JavaFX Application Thread] ERROR GamePanel - Ошибка при сбросе игры: Cannot invoke "javafx.scene.canvas.GraphicsContext.setFill(javafx.scene.paint.Paint)" because "this.gc" is null
+java.lang.NullPointerException: Cannot invoke "javafx.scene.canvas.GraphicsContext.setFill(javafx.scene.paint.Paint)" because "this.gc" is null
+	at com.example.snakegame2.GamePanel.resetGame(GamePanel.java:247) ~[classes/:?]
+	at com.example.snakegame2.GamePanel.<init>(GamePanel.java:46) ~[classes/:?]
+	at com.example.snakegame2.SnakeGame.start(SnakeGame.java:28) ~[classes/:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839) ~[javafx-graphics-21.0.1-mac.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483) ~[javafx-graphics-21.0.1-mac.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456) ~[javafx-graphics-21.0.1-mac.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455) ~[javafx-graphics-21.0.1-mac.jar:?]
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) [javafx-graphics-21.0.1-mac.jar:?]
+2025-12-05 02:41:23.798 [JavaFX Application Thread] ERROR GamePanel - Ошибка при отрисовке экрана завершения: Cannot invoke "javafx.scene.canvas.GraphicsContext.setFill(javafx.scene.paint.Paint)" because "this.gc" is null
+java.lang.NullPointerException: Cannot invoke "javafx.scene.canvas.GraphicsContext.setFill(javafx.scene.paint.Paint)" because "this.gc" is null
+	at com.example.snakegame2.GamePanel.drawGameOver(GamePanel.java:306) ~[classes/:?]
+	at com.example.snakegame2.GamePanel.resetGame(GamePanel.java:261) ~[classes/:?]
+	at com.example.snakegame2.GamePanel.<init>(GamePanel.java:46) ~[classes/:?]
+	at com.example.snakegame2.SnakeGame.start(SnakeGame.java:28) ~[classes/:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839) ~[javafx-graphics-21.0.1-mac.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483) ~[javafx-graphics-21.0.1-mac.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456) ~[javafx-graphics-21.0.1-mac.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455) ~[javafx-graphics-21.0.1-mac.jar:?]
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) [javafx-graphics-21.0.1-mac.jar:?]
+2025-12-05 02:41:38.847 [JavaFX Application Thread] ERROR GamePanel - Ошибка при сбросе игры: Cannot invoke "javafx.scene.canvas.GraphicsContext.setFill(javafx.scene.paint.Paint)" because "this.gc" is null
+java.lang.NullPointerException: Cannot invoke "javafx.scene.canvas.GraphicsContext.setFill(javafx.scene.paint.Paint)" because "this.gc" is null
+	at com.example.snakegame2.GamePanel.resetGame(GamePanel.java:247) ~[classes/:?]
+	at com.example.snakegame2.GamePanel.<init>(GamePanel.java:46) ~[classes/:?]
+	at com.example.snakegame2.SnakeGame.start(SnakeGame.java:28) ~[classes/:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839) ~[javafx-graphics-21.0.1-mac.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483) ~[javafx-graphics-21.0.1-mac.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456) ~[javafx-graphics-21.0.1-mac.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455) ~[javafx-graphics-21.0.1-mac.jar:?]
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) [javafx-graphics-21.0.1-mac.jar:?]
+2025-12-05 02:41:38.878 [JavaFX Application Thread] ERROR GamePanel - Ошибка при отрисовке экрана завершения: Cannot invoke "javafx.scene.canvas.GraphicsContext.setFill(javafx.scene.paint.Paint)" because "this.gc" is null
+java.lang.NullPointerException: Cannot invoke "javafx.scene.canvas.GraphicsContext.setFill(javafx.scene.paint.Paint)" because "this.gc" is null
+	at com.example.snakegame2.GamePanel.drawGameOver(GamePanel.java:306) ~[classes/:?]
+	at com.example.snakegame2.GamePanel.resetGame(GamePanel.java:261) ~[classes/:?]
+	at com.example.snakegame2.GamePanel.<init>(GamePanel.java:46) ~[classes/:?]
+	at com.example.snakegame2.SnakeGame.start(SnakeGame.java:28) ~[classes/:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839) ~[javafx-graphics-21.0.1-mac.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483) ~[javafx-graphics-21.0.1-mac.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456) ~[javafx-graphics-21.0.1-mac.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455) ~[javafx-graphics-21.0.1-mac.jar:?]
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) [javafx-graphics-21.0.1-mac.jar:?]
+2025-12-05 02:44:14.571 [JavaFX Application Thread] ERROR Snake - Змейка столкнулась с собой в (360, 140)! Конец игры.
+2025-12-05 04:00:59.718 [main] ERROR Snake - Змейка столкнулась с собой в (100, 100)! Конец игры.
